@@ -5,12 +5,17 @@
 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
-  background-color: #4a4a4a;
+  background-color: #222222;
 }
 
 
 body {
-  margin: 5px;
-  text-align: left;
-  display: flex;
+  margin: 0px;
+  text-align: center;
+  display:flow-root;
+}
+
+.draganddrop:hover{
+  background: red;
+  zoom: 105%;
 }
