@@ -14,7 +14,7 @@ const CsvUploader: React.FC = () => {
     let tempCurrencySums: Array<CurrencyData> = [];
 
     for (const file of acceptedFiles) {
-      // Provera ekstenzije .csv
+      // Provjera ekstenzije .csv
       if (file.name.endsWith(".csv")) {
         try {
           const result = await readCsvFile(file);
